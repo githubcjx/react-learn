@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import BallList from './BallList';
 const container = document.getElementById("root");
 
 function render() {
   ReactDOM.render((
     <>
-      <div></div>
+      <BallList></BallList>
     </>
   ),
     container
